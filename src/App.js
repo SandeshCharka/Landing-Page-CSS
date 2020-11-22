@@ -16,6 +16,8 @@ const useStyles = makeStyles((theme) => ({
 export default function App() {
   const classes = useStyles();
 
+  const yeet = "yeet";
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -23,4 +25,4 @@ export default function App() {
       <PlaceToVisit />
     </div>
   );
-};
+}
